@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #3bcf00;
+    background-color: #fff9f9;
 }
 
 main {
@@ -22,7 +22,7 @@ aside {
 }
 header, footer {
     flex: none;
-    background-color: #04ce6c;
+    background-color: #7568ea;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 1em;
