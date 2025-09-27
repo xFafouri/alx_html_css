@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #3bcf00;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #009a50;
+}
+header, footer {
+    flex: none;
+    background-color: #04ce6c;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+}
